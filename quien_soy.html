@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quien soy?</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="`stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/106f6e6590.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large w3-monospace">Cerrar &times;</button>
+        <a href="index.html" class="w3-bar-item w3-button w3-monospace">Volver al inicio</a>
+        <a href="quien_soy.html" class="w3-bar-item w3-button w3-monospace">Currículum Vitae</a>
+        <a href="escolaridad.html" class="w3-bar-item w3-button w3-monospace">Escolaridad</a>
+        <a href="experiencia.html" class="w3-bar-item w3-button w3-monospace">Experiencia</a>
+        <a href="ed_cont.html" class="w3-bar-item w3-button w3-monospace">Educacion continua</a>
+        <a href="info_add.html" class="w3-bar-item w3-button w3-monospace">Informacion adicional</a>
+    </div>
+    <div class="w3-light-blue">
+        <button class="w3-button w3-light-blue w3-xlarge " onclick="w3_open()">☰</button>
+      </div>
+
+    <div class = "w3-light-blue">
+        <div class="w3-center"><i class="fa-solid fa-file" style="font-size: 100px; color: #052e48"></i></div>
+        <div class = "w3-padding w3-center"><h1 class="w3-monospace">Currículum Vitae</h1></div>
+    </div>
+    <br>
+    <br>
+    <div class = "w3-display-container">
+        <div class = "w3-padding w3-display-left"><h1 class="w3-monospace">Acerca de mí</h1></div>
+    </div>
+    <br>
+    <div>
+        <p class="w3-padding w3-monospace">
+            Estudiante de 4to semestre de Ingeniería en Tecnologías Computacionales, 
+            con conocimiento y dominio en los lenguajes de programación de Python, C++, C#  y conocimientos básicos de Java y Clojure; 
+            uso y empleo de bases de datos Oracle junto con SQL, desarrollo y diseño de páginas web en la parte del frontend (HTML, css, JavaScript y uso básico de React) 
+            y experiencia básica en la parte del backend (php, node.js), manejo del motor de creación de videojuegos Unity y uso intermedio de Arduino para programación de placas. 
+            Interesado en ingresar a un puesto laboral que me permita por medio del uso de tecnologías innovadoras crear soluciones que sean propositivas y que impulsen el desarrollo tecnológico. 
+            Poseo competencias como el trabajo colaborativo, la toma del liderazgo, pensamiento analítico, aprendizaje rápido, trabajo bajo presión y autodisciplinado. 
+        </p>
+    </div>
+
+    <script>
+        function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+
+
+
+</body>
+</html>

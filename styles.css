@@ -1,0 +1,15 @@
+
+.box {
+    width: 45%; /* Ajusta el ancho según tu preferencia */
+    padding: 20px;
+    border: 1px solid#8bd1e2;
+
+    background-color: #8bd1e2;
+}
+
+.titulo{
+    text-align: center;
+}
+
+
+
